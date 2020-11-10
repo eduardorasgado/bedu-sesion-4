@@ -125,7 +125,8 @@
 /* -------grid css--------- */
 
 .features {
-    display: grid;
+    /* display: grid; */
+    display: none;
     /* grid-template-columns: 500px 1fr */
     /* grid-template-columns: repeat(2, 1fr); */
     grid-template-columns: 1fr 1fr;
@@ -140,4 +141,47 @@
     margin: 10px;
     width: 40%;
     height: 100px;
+}
+
+/* reto de css grid */
+
+.info-container {
+    /* display: grid; */
+    display: none;
+    grid-template-columns: 1fr 1fr;
+}
+
+.info-container article {
+    margin: 10px;
+    border-radius: 10px;
+    width: 96%;
+    height: 280px;
+    background-color: #025157;
+    
+}
+
+article .article1 {
+    background-image: image('https://getmatcha.com/wp-content/themes/getmatcha/img/gfx/blocks/masters.jpg');   
+}
+
+/* maquetacion de Grid Area */
+
+.item1 {
+
+}
+
+.item2 {
+
+}
+
+.item3 {
+    
+}
+
+.item4 {
+    
+}
+
+.item5 {
+    
 }
