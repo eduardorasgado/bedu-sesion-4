@@ -78,3 +78,44 @@
     /* width: 50%; */
     height: 50px;
 }
+
+/* codigo para el reto de maquetacion */
+
+.container-reto {
+    display: flex;
+    height: 30em;
+    width: 100%;
+    justify-content: space-around;
+    gap: 12px;
+    align-items: center;
+}
+
+.chunk-item {
+    height: 100%;
+    background-color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    align-items: center;
+}
+
+.img-chunk {
+    width: 95%;
+    border-radius: 15px;
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.chunk-text {
+    font-family: sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.chunk-header-text {
+    font-size: x-large;
+}
+
+.chunk-description-text {
+    color: #025157
+}
