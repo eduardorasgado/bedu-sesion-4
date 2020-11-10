@@ -4,7 +4,8 @@
 }
 
 .grid {
-    display: grid;
+    /* display: grid; */
+    display: none;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -82,7 +83,8 @@
 /* codigo para el reto de maquetacion */
 
 .container-reto {
-    display: flex;
+    /* display: flex; */
+    display: none;
     height: 30em;
     width: 100%;
     justify-content: space-around;
@@ -118,4 +120,24 @@
 
 .chunk-description-text {
     color: #025157
+}
+
+/* -------grid css--------- */
+
+.features {
+    display: grid;
+    /* grid-template-columns: 500px 1fr */
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: 1fr 1fr;
+}
+
+.features article {
+    background-color: #025157;
+    border-radius: 15px;
+    color: white;
+    font-size: large;
+    font-family: sans-serif;
+    margin: 10px;
+    width: 40%;
+    height: 100px;
 }
