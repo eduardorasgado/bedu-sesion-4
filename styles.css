@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    /* flex-direction: ; */
+    /*no permite que se desborden los hijos*/
+    /* flex-wrap: nowrap; */
+    /* atajo */
+    /* flex-flow: <flex-direction> <flex-wrap>; */
+    flex-flow: row wrap;
+    height: 400px;
+    width: 400px;
+    background: rgb(107, 131, 150);
+    justify-content: flex-end;
+}
+
+.item {
+    background-color: aqua;
+    width: 50px;
+    /* width: 50%; */
+    height: 50px;
+}
