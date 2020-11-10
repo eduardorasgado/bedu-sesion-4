@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container {
+    display: flex;
+    /* flex-direction: ; */
+    /*no permite que se desborden los hijos*/
+    /* flex-wrap: nowrap; */
+    /* atajo */
+    /* flex-flow: <flex-direction> <flex-wrap>; */
+    /* flex-flow: row wrap; */
+    height: 400px;
+    width: 400px;
+    background: rgb(107, 131, 150);
+    /* justify-content: flex-end; */
+    align-items: center;
+    /* align-content: space-around; */
+}
+
+.container-just-cont-left {
+    display: flex;
+    height: 300px;
+    width: 400px;
+    background: rgb(107, 131, 150);
+    justify-content: flex-start;
+}
+
+.container-just-cont-right {
+    display: flex;
+    height: 300px;
+    width: 400px;
+    background: rgb(107, 131, 150);
+    justify-content: flex-end;
+}
+
+.container-just-cont-center {
+    display: flex;
+    height: 300px;
+    width: 400px;
+    background: rgb(107, 131, 150);
+    justify-content: center;
+}
+
+.container-align-items-left {
+    display: flex;
+    height: 300px;
+    width: 400px;
+    background: rgb(127, 131, 162);
+    align-items: flex-end;
+}
+
+.container-align-items-right {
+    display: flex;
+    height: 300px;
+    width: 400px;
+    background: rgb(127, 131, 162);
+    align-items: flex-start;
+}
+
+.container-align-items-center {
+    display: flex;
+    height: 300px;
+    width: 400px;
+    background: rgb(127, 131, 162);
+    align-items: center;
+}
+
+.item {
+    background-color: bisque;
+    width: 50px;
+    /* width: 50%; */
+    height: 50px;
+}
+
+/* codigo para el reto de maquetacion */
+
+.container-reto {
+    display: flex;
+    height: 30em;
+    width: 100%;
+    justify-content: space-around;
+    gap: 12px;
+    align-items: center;
+}
+
+.chunk-item {
+    height: 100%;
+    background-color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    align-items: center;
+}
+
+.img-chunk {
+    width: 95%;
+    border-radius: 15px;
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.chunk-text {
+    font-family: sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.chunk-header-text {
+    font-size: x-large;
+}
+
+.chunk-description-text {
+    color: #025157
+}
